@@ -1,3 +1,13 @@
+body{
+    background-color: #A9AA39; 
+}
+h1{
+    font-family: 'Yeseva One', cursive;
+    font-size: 80px;
+    padding: 10px;
+    color: #001F1F;
+
+}
 ul {
     list-style-type: none;
     margin: 0;
