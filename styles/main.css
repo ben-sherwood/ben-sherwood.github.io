@@ -57,7 +57,7 @@ h1{
       background-color: #1d1d1d;
       color: #FCFF00;
 }
-#navBar a:active{
+#navBar li a:active{
     background-color: #3a3a3a;
     color: #FCFF00;
 }
