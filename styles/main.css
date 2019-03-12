@@ -1,11 +1,22 @@
 body{
-    background-color: #A9AA39; 
+    background-color: grey; 
+    position: absolute;
+    width: 100%;
+}
+#headingBox{
+    position: relative;
+    background-color: #A9AA39;
+    width: 95%;
+    padding: 1%;
+    margin: 1% 1% 1% 1%;
 }
 h1{
     font-family: 'Yeseva One', cursive;
     font-size: 80px;
-    padding: 10px;
-    color: #001F1F;
+    padding:;
+    color: #3a3a3a;
+    position: relative;
+    top: 70px;
 
 }
 ul {
