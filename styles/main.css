@@ -6,58 +6,66 @@ body{
 #headingBox{
     position: relative;
     background-color: #A9AA39;
-    width: 95%;
-    height: 150px;
+    width: inherit;
+    height: auto;
     padding: 1%;
-    margin: 1% 1% 1% 1%;
 }
 h1{
     font-family: 'Yeseva One', cursive;
     font-size: 80px;
-    padding:;
     color: #3a3a3a;
     position: relative;
     top: 15px;
 
 }
-#navBar{
-    width: 97%;
-    margin: 1% 1% 1% 1%;
-    border: 2px dotted black;
-    position: relative;
-    background-color: white;
-    height: 2.6em;
+
+ul, li{ 
+    list-style:none; 
+    padding:0;
 }
-#navBar ul{
-    border: 2px solid pink;
-    float: left;
-    position: relative;
-    padding: 0px;
-    margin: 0 0 0 0;
-    list-style: none;
-    align: center;
+.main-menu{
+    width: 100%;
 }
-#navBar ul li{
-    float: left;
-    padding: 0em 0.1em 0em 0.1em
-}
-#navBar li a{
-    border: 2px solid black;
-    background-color: #FCFF00;
-    float: left;
-    display: block;
-    text-decoration: none;
-    padding: 0.6em 11.2em 0.3em 11.2em;
+.main-menu ul{
+    background-color: #A9AA39;
+    width: inherit;
+} 
+.main-menu a{
+    color:#3a3a3a; 
+    display:block; 
+    padding:5px; 
+    text-decoration:none;
     font-family: 'Yeseva One', cursive;
-    font-size: 15px;
-    color:#3a3a3a;
-    font-weight: bold;
+    
 }
-#navBar li a:hover{
-      background-color: #1d1d1d;
-      color: #FCFF00;
+.main-menu a:hover{
+    background-color:#3a3a3a; 
+    text-decoration:none; 
+    color:#A9AA39;
+    font-family: 'Yeseva One', cursive;
 }
-#navBar li a:active{
+.main-menu a:active{
     background-color: #3a3a3a;
     color: #FCFF00;
 }
+}
+.main-menu > ul{
+     display:table; 
+     width:100%;
+}  
+.main-menu > ul > li{ 
+    display:table-cell; 
+    width:10%;
+}  
+.main-menu > ul > li > a{ 
+    text-align:center;
+}
+.main-menu > ul > li{
+     display:table-cell; 
+     border-right:1px solid #3a3a3a; 
+     border-top:1px solid #3a3a3a; 
+}
+
+.main-menu > ul > li:last-child{
+     border-right:none;
+    }
