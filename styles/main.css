@@ -1,71 +1,47 @@
-body{
-    background-color: grey; 
-    position: absolute;
+main{
+    font-size: 2vw;
+}
+#heading{
+    background-color:#570957;
     width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
-#headingBox{
-    position: relative;
-    background-color: #A9AA39;
-    width: inherit;
-    height: auto;
-    padding: 1%;
+#heading h1{
+    font-family: 'VT323', monospace;
+    font-size: 2em;
+    border: solid black 1px;
+    margin: .1em;
+    text-align: center;
 }
-h1{
-    font-family: 'Yeseva One', cursive;
-    font-size: 80px;
-    color: #3a3a3a;
-    position: relative;
-    top: 15px;
-
-}
-
-ul, li{ 
-    list-style:none; 
-    padding:0;
-}
-.main-menu{
-    width: 100%;
-}
-.main-menu ul{
-    background-color: #A9AA39;
-    width: inherit;
-} 
-.main-menu a{
-    color:#3a3a3a; 
-    display:block; 
-    padding:5px; 
-    text-decoration:none;
-    font-family: 'Yeseva One', cursive;
-    
-}
-.main-menu a:hover{
-    background-color:#3a3a3a; 
-    text-decoration:none; 
-    color:#A9AA39;
-    font-family: 'Yeseva One', cursive;
-}
-.main-menu a:active{
-    background-color: #3a3a3a;
-    color: #FCFF00;
-}
-}
-.main-menu > ul{
-     display:table; 
-     width:100%;
-}  
-.main-menu > ul > li{ 
-    display:table-cell; 
-    width:10%;
-}  
-.main-menu > ul > li > a{ 
-    text-align:center;
-}
-.main-menu > ul > li{
-     display:table-cell; 
-     border-right:1px solid #3a3a3a; 
-     border-top:1px solid #3a3a3a; 
+#dots{
+    font-size: 1em;
 }
 
-.main-menu > ul > li:last-child{
-     border-right:none;
-    }
+#navbar{
+    background-color:white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: pink;
+    font-family: 'VT323', monospace
+}
+
+#navbar a{
+    background-color: #8A008A;
+    text-align: center;
+    width: 25%;
+    text-decoration: none;
+    color: #010101;
+    margin: .1em 0.1em 0em 0em;
+    padding: 10px 20px 10px 20px;
+    font-family: 'VT323', monospace
+}
+
+#navbar a:hover{
+    background-color: #010101;
+    color: #8A008A;
+    font-family: 'VT323', monospace
+}
