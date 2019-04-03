@@ -49,12 +49,12 @@ main{
 /* **********************Blog************************ */
 #all-blog-posts{
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
     padding: 10px;
 }
 #blog-intro{
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: column;
     padding: 10px;
 }
 
