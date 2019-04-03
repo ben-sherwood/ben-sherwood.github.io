@@ -1,3 +1,4 @@
+/* ************NAVIGATION AND HEADER ************** */
 main{
     font-size: 2vw;
 }
@@ -6,15 +7,18 @@ main{
     width: 100%;
     height: 100px;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: space-between;
     color: #92B359;
 }
 #heading h1{
+    width: 33%;
     font-family: 'VT323', monospace;
     font-size: 2em;
     margin: .1em;
     text-align: center;
+    width: inherit;
+    height: auto;
 }
 
 #navbar{
@@ -41,4 +45,21 @@ main{
     color: #92B359;
     font-family: 'VT323', monospace;
 }
+/* ************************************************** */
+/* **********************Blog************************ */
+#all-blog-posts{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+#blog-intro{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
 
+.blog-post{
+    border: solid #92B359 2px;
+    margin-bottom: 5px;
+    padding: 10px;
+}

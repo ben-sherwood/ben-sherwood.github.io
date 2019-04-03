@@ -1,21 +1,228 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Blog</title>
-        <link rel="stylesheet" href="ben-sherwood.github.io/styles/main.css">
-        <link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet">
 
-    </head>
-    <main>
-        <div id="heading">
-            <h1> + - + Ben's Blog + - +</h1>
-        </div>
+<head>
+    <title>Blog</title>
+    <link rel="stylesheet" href="https://ben-sherwood.github.io/styles/main.css">
+    <link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet">
 
-        <div id="navbar">
-            <a href="../index.html">About Me</a>
-            <a href="blog.html">Blog</a>
-            <a href="projects.html">Projects</a>
-            <a href="contact.html">Contact</a>
+</head>
+<main>
+    <div id="heading">
+        <h1> + - + Ben's Blog + - +</h1>
+    </div>
+
+    <div id="navbar">
+        <a href="../index.html">About Me</a>
+        <a href="blog.html">Blog</a>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html">Contact</a>
+    </div>
+    <div id="blog-intro">
+        <h1>Welcome to my blog!</h1>
+        <p>Each post is a glimpse into my journey here at Inspiral Dev Academy.</p>
+    </div>
+    <div id="all-blog-posts">
+        <div class="blog-post">
+            <h3 class="blog-heading">What is Github?</h3>
+            <p class="date">07/03/2019</p>
+            <p class="blog-body">Github is a service that hosts code and git files. The service allows multiple people
+                to
+                work on the same git repositiories.
+                It helps make bugfixing easier, while also preventing errors.
+                A very poor analogy of git and github would be like several people working on a painting seperately. The
+                paint their bit on plastic
+                sheets and lay those changes ontop of each other before making the changes on the canvas final. If
+                something
+                is not right, they
+                can fix it....terrible analogy :/
+                I think I would still know the difference in a week as its something I have done a bit before, but I am
+                looking forward to using them both more
+                as it will be a great chance to learn more and get familiar with them both.
+                Yes, I managed to stick to timebox guides as I have done a bit of this before. I did some further
+                reading
+                and feel ready for coming challenges.</p>
         </div>
-    </main>
+        <div class="blog-post">
+            <h3 class="blog-heading">What is Github Workflow?</h3>
+            <p class="date">08/03/2019</p>
+            <p class="blog-body">A Workflow is a recommendation for how to use git efficiently and effectively. A
+                workflow in git is an agreed upon method of submitting commits and tracking changes between
+                one or more developers. A workflow should be able to easily track changes, as well as easily undo
+                mistakes and errors. The workflow should not be an added burden.</p>
+            <h3>What did you notice about your own learning? What did you do when you were confused or blocked?</h3>
+            <p class="blog-body">I was actually really happy with my learning during this block of work. While I was
+                being asked questions on Log information, I was thinking "Man there must be an easier way
+                to search for information on commits in the logs other than scrolling through every commit, so I did
+                some further reading at that time and learned about git log --oneline
+                as well as things like git log grep="" to find certain strings in the commit message. These proved very
+                helpful and sped up my learning.
+                Sure enough, these methods of refining git log information came up further on in the 4 lessons, but I am
+                really happy that I was motivated and curious to find better methods
+                of refining the log information. If I apply this same curiosity as the course progresses I am confident
+                I will maximize my learning.</p>
+            <h3>Is there anything you'd do differently if you were to repeat the learning exploration again?</h3>
+            <p class="blog-body">Yes! I wouldn't do it at 1am in the morning! I was so keen to get started on the course
+                I did some of it quite late at night. I think this is not ideal as I found it harder
+                to remember some of the information in the morning. Doing study while energized and refreshed seems to
+                be far more effective than while tired and sleepy! When the course
+                officially starts on the 11/03/2019 I will make sure I stick to my allocated study time 9am - 5pm to
+                ensure I am not only getting in plenty of coding, but coding during the
+                day where my brain is most active! I will also endevour to make good use of my reset time to ensure I am
+                ready to go the next day. I also have done previous reflection using
+                powershell Set-Content as practice, but I wasn't sure how to add more content... Since writing this I
+                now see you can use the Add-Content cmdlet to append more to the file!</p>
+            <h3>How would you describe stage and commit to your non-tech-savvy friend?</h3>
+            <p class="blog-body">Imagine you are in a supermarket, thinking of a recipe to cook that night. You wander
+                around deciding what ingredients you need, adding them to your basket. Your basket is the
+                "stage". The stage is a place where you are telling the supermarket "these are the things I want you to
+                focus on, these are going to be the things I want to take out of the
+                store, ready for my guests to enjoy". When you "commit" You are going to the checkout and saying "I want
+                these items in my basket (stage) to be accessable to my guests"</p>
+            <h3 class="blog-heading">What are some examples of when you would fork?</h3>
+            <p class="blog-body">Forking a repo is to take a copy of an exisiting repo. It allows you to play around and
+                experiment with changes and features without affecting the origional Repo. A few examples of when you
+                might fork a repo:
+                Suggesting changes to someone elses project
+                Using someone elses project as a starting point for your own project
+                It can be also used when working on an open source project. It allows each developer to commit changes
+                to their own forked repo without writing changes to the main repo. This allows the admin or owner of the
+                repo to select what commits are submitted to the main repo while maintaing security</p>
+
+            <h3 class="blog-heading">Write your own step-by-step fork and clone instructions. Describe what you did.
+            </h3>
+            <p class="blog-body">Step 1 Create the Fork:<br>
+                Navigate to the github repo that you want to fork. In the top right on the page is the "fork" button.
+                Click this. Github will ask you where you would like this new Repo to be located. Just select your
+                username - do not nest this in another repo.<br>
+                Step 2 Clone this repo:<br>
+                Navigate to this newly forked repo on github and click the green button to the right of the screen
+                labeled "clone or download". Copy the repo URL and open gitbash. use cd commands to navigate to the
+                directory you want this cloned repo to be located. Clone the git by using the command *git clone*
+                (the-link-you-just-copied)
+
+                Congratulations! You now have forked a repo, and cloned it so you have a local copy. You can now
+                add, commit and branch just like normal.</p>
+
+            <h3 class="blog-heading">Did you have any moments where it all clicked? What clicked?</h3>
+            <p class="blog-body">I didn't find this challenge to difficult, as many of the skills applied were learned
+                in previous primers and research I have done myself. I did forget that if you have created a new branch
+                locally, you cant just git push as there is no upstream branch. to do this you must use: git push
+                --set-upstream origin (the-name-of-the-branch)</p>
+        </div>
+        <div class="blog-post">
+            <h3 class="blog-heading">What is the difference between cloning from a forked or non-forked repo.</h3>
+            <p class="date">11/03/2019</p>
+            <p class="blog-body">When you fork a repo you are creating a copy of that repo registered under your own
+                github account. When you clone from a forked repo, all changes made will only effect your copy of the
+                repo. The origional repo and the forked repo still are both tracked, but you cant make specific changes
+                to the origional repo. When you clone a non forked repo you can make permanent changes to that repo. A
+                forked repo is handy if you dont want to worry about read write permissions as anyone who forks the repo
+                can only make changes to their forked copy.</p>
+            <h3 class="blog-heading">Can you think of an analogy to describe forking?</h3>
+            <p class="blog-body">Think about a google doc file is storing an essay if you make that file public or share
+                with certain people, they can access that file and make changes in a colabritive way. The main file is
+                being changed. Forking is like the origional owner copying "essay.txt" to create "essay2.txt" each
+                person has acess to their own copy of "essay.txt" and can make changes to their own copy. they can view
+                everyone elses, but they can only edit their own.</p>
+            <h3 class="blog-heading">What is a remote?</h3>
+            <p class="blog-body">A remote is a repo stored remotely. It is the specific URL that points to the repo in
+                question. there can be multiple remotes for one project, usually in this case it is to give seperate
+                read/write permissions to certain people. Its an added layer of security as it avoids people writing to
+                the master by mistake.</p>
+
+            <h3 class="blog-heading">How are remotes set up?</h3>
+            <p class="blog-body">Remotes are set up via git. When you clone a repo to your local computer, the default
+                remote is called "origin" and points to the repo address you origionally cloned. for instance, this repo
+                is a forked repo, with the "origin" remote located at URL
+                https://github.com/ben-sherwood/foundations.git. this points to a repo I own, which was initially forked
+                from somewhere else. If i want to make sure I am tracking changes to the repo i forked from I need to
+                set up a new remote that i can <git fetch> the changes from. it is simple to do this. the commands
+                    are:<br>
+                    1: git remote -v (This checks what remotes are currently set up.) <br>
+                    2: git remote add (name-of-remote)
+                    (desired-url)<br>
+                    and there you go. as an example I will show what would be required to set up a remote that
+                    can fetch changes from the repo i initially forked: <br>
+                    git remote -v *(checking remotes)*<br>
+                    git remote add eda-remote https://github.com/dev-academy-foundations/foundations *(name the
+                    *remote and point it to the origional repo that I want to track)* <br>
+                    git remote -v *(check that the new remote is set up)* <br>
+
+                    to check for changes you can do the following:<br>
+                    git fetch eda-remote<br>
+                    git diff eda-remote/master origin/master (this will compare the differences between the
+                    origin which points to our repo and the eda-remote master)<br>
+                    if you are happy to merge the changes, you can use: <br>
+                    git merge eda-remote.<br>
+
+                    This is the safest way to do it, however using git pull eda-remote will both fetch and merge
+                    in one step. this does not give you the change to check the changes before merging with your
+                    current work.</p>
+
+            <h3 class="blog-heading">How would you explain a remote to a non-technical person using an analogy?</h3>
+            <p class="blog-body">The hint is in the title - its remote. Not on your machine. An analogy for a remote:
+                When you log into gmail you can see all your emails, make changes to folders, create emails, delete
+                emails, etc. If you go to the other side of the world, you can log into gmail and still find all the
+                same files folders emails etc, despite being on a different computer. In terms of a repository, the
+                remote is the *remote* storage of the repository. You can access this remote anywhere by copying or
+                *cloning* the remote to your local computer - then one can make changes and send these changes back to
+                the remote, so others can update their own copy - like if you create a new folder within your inbox from
+                your phone, you will have to refresh the browser page to update and reflect the changes you made on your
+                computer</p>
+
+            <h3 class="blog-heading">How many times did you feel like "oh God I don't understand this"?</h3>
+            <p class="blog-body">There were not too many times during this challenge, mainly because I had done a few of
+                my own challenges previously. During THESE challenges however I did really struggle when I was trying to
+                set up a new remote - you need to have the repo already created in github, and use the exact URL to
+                point to it. I was using urls like https://github.com/ben-sherwood/test-repo which wasnt working because
+                it needs to be https://github.com/ben-sherwood/test-repo.git and needs to exist on github before trying
+                to set a new remote.</p>
+        </div>
+        <div class="blog-post">
+            <h3 class="blog-heading">Create a Blog - Challenge. Reflect on this activity. When did you feel frustrated?
+            </h3>
+            <p class="date">11/03/2019</p>
+            <p class="blog-body">My main frustrations came about from just not remembering all the things I learned at
+                otago. I would have been able to pump out a pretty decently useable blog in 20 minutes, now I have
+                completely forgotten lots of things - mainly good practice stuff like using divs and floating elements
+                etc. This Will all come back in time but I was frustrated at the speed I was going.</p>
+            <h3 class="blog-heading">If you didn't already know that this is the way websites are made; was it what you
+                pictured?</h3>
+            <p class="blog-body">I have done quite a bit of web design before so I wasn't surprised. I built my first
+                functioning html site 14 years ago (functioning is a generous term... it was solid blocks of color on a
+                plain page!).</p>
+            <h3 class="blog-heading">What parts of your learning strategy worked? What problems did you face?</h3>
+            <p class="blog-body">I really am enjoying defining clear goals for the day at the start of each day. It
+                gives me something to work towards, and makes it much easier to be focused and efficent while working.
+                If I know I have x number of tasks to do, it becomes easier to divide my time and give myself breaks:
+                "When i have finished this task, I will have a cup of tea"</p>
+            <h3 class="blog-heading">How confident are you with each of the Learning Competencies?</h3>
+            <p class="blog-body">Today I am pretty happy with how I went and my understanding of the competencies.
+                Sometimes it took some extra research to find the words I was looking for. I also think many of these
+                skills like forking, cloning, fetching etc are skills that will very quickly become engrained.</p>
+            <h3 class="blog-heading">Which parts of the work did you enjoy?</h3>
+            <p class="blog-body">I am really enjoying the bit command line at the moment. Its fast and fun, and I am
+                starting to appreciate how navigating file systems in command line is much easier and faster when you
+                know the shortcuts.</p>
+            <h3 class="blog-heading">Which parts of the work did you find tedious?</h3>
+            <p class="blog-body">Sometimes I find the reflection questions tedious. The question "how would you describe
+                remote to a non tech friend using an analogy?" I didnt like. I know that often if you can find an
+                analogy it makes it far easier to an on looker (who knows about code) to see if the person has a real
+                understanding of the concept. But for things like "remote" its very hard to find an analogy without
+                using "remote" and remote and cloud are fairly similar, so i found myself using an email analogy.. which
+                maybe isnt fully correct but seemed ok... perhaps this is just outlining that I have NO clue what im
+                talking about! xD</p>
+        </div>
+    </div>
+    <!-- 
+        <div class="blog-post">
+            <h3 class="blog-heading"></h3>
+            <p class="date"></p>
+            <p class="blog-body"></p>
+    </div> 
+-->
+
+</main>
+
 </html>
