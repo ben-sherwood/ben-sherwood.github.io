@@ -80,3 +80,16 @@ main{
     margin-bottom: 5px;
     padding: 10px;
 }
+.tech-blog-post{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border: solid #92B359 2px;
+    margin-bottom: 5px;
+    padding: 10px;
+}
+.tech-body{
+    
+    display: flex;
+    flex-wrap: wrap; 
+}

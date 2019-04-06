@@ -3,7 +3,7 @@
 
 <head>
     <title>Blog</title>
-    <link rel="stylesheet" href="https://ben-sherwood.github.io/styles/main.css">
+    <link rel="stylesheet" href="../styles/main.css">
     <link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet">
 
 </head>
@@ -23,7 +23,7 @@
         <p>Each post is a glimpse into my journey here at Inspiral Dev Academy.</p>
     </div>
     <div id="all-blog-posts">
-        <div class="blog-post">
+        <!--<div class="blog-post">
             <h3 class="blog-heading">What is Github?</h3>
             <p class="date">07/03/2019</p>
             <p class="blog-body">Github is a service that hosts code and git files. The service allows multiple people
@@ -214,6 +214,7 @@
                 maybe isnt fully correct but seemed ok... perhaps this is just outlining that I have NO clue what im
                 talking about! xD</p>
         </div>
+        -->
         <div class="blog-post">
             <h3 class="blog-heading">A Story about HTML and CSS</h3>
             <p class="date">03/04/2019</p>
@@ -239,10 +240,40 @@
                 buildings you build, and the buildings complement my design. They are one of the same. We create beauty,
                 together".<br>
                 Hamish smiled, he hadn’t thought about it like that.<br><br>
-                 As the sun lay down to rest, Hamish closed his
+                As the sun lay down to rest, Hamish closed his
                 eyes, ready for the day tomorrow and the beauty he would create from chaos.<br><br>
             </p>
             <p id="bold">The End</p>
+        </div>
+        <div class="tech-blog-post">
+            <h3>A guide to Margins, Borders, and Padding</h3>
+            <p class="date">03/04/2019</p>
+            <p class="tech-body">
+                To understand Margins, borders, and padding, first we must understand how html
+                elements are viewed by the browser. Pretty much every html element has an invisible
+                box around the content. Circular Image? It will have a square box with the circles
+                diameter as the width and height.<br><br>
+            </p>
+            <h4>Padding</h4>
+            <p class="tech-body">
+                Now, With the above in mind lets take a look at padding. Padding is the space between
+                the content of the element, and the invisible box around the content.
+            </p>
+            <img src="../images/marginlesson.gif">
+            <p class="tech-body">
+                To set padding in CSS it is very simple. Select the element you want to change
+                using css, and add a padding attribute like this: p{padding-top: 5px;}. This will add a
+                5px space between the content and the invisible box the content sits in. We can add more
+                padding by using other variations of the attribute, like padding-right or padding-bottom,
+                but there is an easier way!<br> Enter, padding. You can use just "padding" to choose all 4 sides
+                at the same time like this: p{padding:5px 10px 5px 10px;}. This adds 5px padding around the content
+                on all sides.<br> If you are using equal padding for each side, you can just use p{padding: 5px;},
+                this will automatically apply the 5px to each side. In terms of knowing which number will impact
+                which side of padding, its simple: Think clockwise starting at 12. Top, right, bottom, left.<br>
+                So, in our first example the top and bottom padding is 5px and the left and right padding is 10px.<br>
+                Looks like you are pros... lets now define that invisible box... Onwards to borders!
+                <br>
+            </p>
         </div>
         </p>
     </div>
