@@ -3,7 +3,8 @@
 
 <head>
     <title>Blog</title>
-    <link rel="stylesheet" href="https://ben-sherwood.github.io/styles/main.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <!--<link rel="stylesheet" href="https://ben-sherwood.github.io/styles/main.css">-->
     <link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet">
 
 </head>
@@ -248,32 +249,69 @@
         <div class="tech-blog-post">
             <h3>A guide to Margins, Borders, and Padding</h3>
             <p class="date">03/04/2019</p>
-            <p class="tech-body">
-                To understand Margins, borders, and padding, first we must understand how html
-                elements are viewed by the browser. Pretty much every html element has an invisible
-                box around the content. Circular Image? It will have a square box with the circles
-                diameter as the width and height.<br><br>
-            </p>
+            <div class="tech-body">
+                <p>To understand Margins, borders, and padding, first we must understand how html
+                    elements are viewed by the browser. Pretty much every html element has an invisible
+                    box around the content. Circular Image? It will have a square box with the circles
+                    diameter as the width and height.<br><br></p>
+            </div>
             <h4>Padding</h4>
-            <p class="tech-body">
-                Now, With the above in mind lets take a look at padding. Padding is the space between
-                the content of the element, and the invisible box around the content.
-            </p>
-            <img src="../images/marginlesson.gif">
-            <p class="tech-body">
-                To set padding in CSS it is very simple. Select the element you want to change
-                using css, and add a padding attribute like this: p{padding-top: 5px;}. This will add a
-                5px space between the content and the invisible box the content sits in. We can add more
-                padding by using other variations of the attribute, like padding-right or padding-bottom,
-                but there is an easier way!<br> Enter, padding. You can use just "padding" to choose all 4 sides
-                at the same time like this: p{padding:5px 10px 5px 10px;}. This adds 5px padding around the content
-                on all sides.<br> If you are using equal padding for each side, you can just use p{padding: 5px;},
-                this will automatically apply the 5px to each side. In terms of knowing which number will impact
-                which side of padding, its simple: Think clockwise starting at 12. Top, right, bottom, left.<br>
-                So, in our first example the top and bottom padding is 5px and the left and right padding is 10px.<br>
-                Looks like you are pros... lets now define that invisible box... Onwards to borders!
-                <br>
-            </p>
+            <div class="tech-body">
+                <div id="img-p-wrap">
+                    <p>Now, With the above in mind lets take a look at padding. Padding is the space between
+                        the content of the element, and the invisible box around the content.
+                    </p>
+                    <img src="../images/marginlesson.gif">
+                </div>
+                <p>
+                    To set padding in CSS it is very simple. Select the element you want to change
+                    using css, and add a padding attribute like this: p{padding-top: 5px;}. This will add a
+                    5px space between the content and the invisible box the content sits in. We can add more
+                    padding by using other variations of the attribute, like padding-right or padding-bottom,
+                    but there is an easier way!<br> Enter, padding. You can use just "padding" to choose all 4 sides
+                    at the same time like this: p{padding:5px 10px 5px 10px;}. This adds 5px padding around the content
+                    on all sides.<br> If you are using equal padding for each side, you can just use p{padding: 5px;},
+                    this will automatically apply the 5px to each side. In terms of knowing which number will impact
+                    which side of padding, its simple: Think clockwise starting at 12. Top, right, bottom, left.<br>
+                    So, in our first example the top and bottom padding is 5px and the left and right padding is
+                    10px.<br>
+                    Looks like you are pros... lets now define that invisible box... Onwards to borders!
+                    <br>
+                </p>
+                <h4>Borders</h4>
+                <p>Adding a border does just that. It adds a border to one or more sides of our
+                    "invisible" box. I often like to put a border around an element even if i don't
+                    plan on leaving it there when I am working out how I want to position the item,
+                    as it makes it easier to align elements.<br>
+                    Borders have many different combinations of attriubtes, I will show you the basic
+                    premise for creating a border, and you can see more <a
+                        href="https://www.w3schools.com/css/css_border.asp">advanced options at w3school.</a> <br><br>
+                    p{border: solid black 1px}<br><br>
+                    This is a very simple border. It is a solid line, the color is black and it is 1px wide.
+                    There are many styles of border like dotted, dashed, double, and more. The color attribute will take
+                    either a standard color, or a hexidecimal code, like #92B359 - the green color used on this post
+                    border.<br>
+                    The above style is actually condensing several different css commands:<br><br>
+                    p{<br>
+                    border-style: solid;<br>
+                    border-color: black;<br>
+                    border-width: 1px;<br>
+                    }<br><br>
+                    Just like padding we can apply different styles to different sides of our element:<br><br>
+                    border-width: 1px 5px 1px 5px;<br><br>
+                    This would give you a top and bottom border 1px wide, and left and right a width of 5px.
+                    The same thing can be done for color and style:<br><br>
+                    border-color: red black pink green;<br><br>
+                    border-style: dotted dashed solid double;<br><br>
+                    Crazy colors. Crazy styles.
+                </p>
+                <H4>Margins</H4>
+                <p>Hey look! We are onto margins already and its only 3am!<br>
+                Margins work a lot like padding, except instead of increasing space between content and our
+            invisible box (or visible if you have a border!) it increases space between the whole element and
+        other elements around it.</p>
+            </div>
+
         </div>
         </p>
     </div>
