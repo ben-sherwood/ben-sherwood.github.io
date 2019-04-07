@@ -87,6 +87,12 @@ main{
     border: solid #92B359 1px;
     margin-right: 5px;
 }
+.blog-links a,.blog-links li{
+    text-decoration: none;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+}
 #t-blog{
     width:50%;
     border: solid #92B359 1px;
@@ -97,7 +103,7 @@ main{
     flex-direction: column-reverse;
 
 }
-.tech-blog-post, .core-blog-post{
+.tech-blog-post, .core-blog-post, .core-blog-post ol{
     text-align: left;
     padding: 0 10px;
     font-family: monospace;
