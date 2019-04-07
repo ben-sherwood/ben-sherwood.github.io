@@ -265,13 +265,14 @@
                 </div>
                 <p>
                     To set padding in CSS it is very simple. Select the element you want to change
-                    using css, and add a padding attribute like this: p{padding-top: 5px;}. This will add a
+                    using css, and add a padding attribute like this:<br> p{<br>padding-top: 5px;<br>}<br> This will add a
                     5px space between the content and the invisible box the content sits in. We can add more
                     padding by using other variations of the attribute, like padding-right or padding-bottom,
                     but there is an easier way!<br> Enter, padding. You can use just "padding" to choose all 4 sides
-                    at the same time like this: p{padding:5px 10px 5px 10px;}. This adds 5px padding around the content
-                    on all sides.<br> If you are using equal padding for each side, you can just use p{padding: 5px;},
-                    this will automatically apply the 5px to each side. In terms of knowing which number will impact
+                    at the same time like this:<br> p{<br>padding:5px 10px 5px 10px;<br>}.<br> This adds 5px padding around the content
+                    on all sides.<br> If you are using equal padding for each side, you can just use:<br> p{<br>
+                        padding: 5px;<br>}<br>
+                    This will automatically apply the 5px to each side. In terms of knowing which number will impact
                     which side of padding, its simple: Think clockwise starting at 12. Top, right, bottom, left.<br>
                     So, in our first example the top and bottom padding is 5px and the left and right padding is
                     10px.<br>
@@ -307,9 +308,31 @@
                 </p>
                 <H4>Margins</H4>
                 <p>Hey look! We are onto margins already and its only 3am!<br>
-                Margins work a lot like padding, except instead of increasing space between content and our
-            invisible box (or visible if you have a border!) it increases space between the whole element and
-        other elements around it.</p>
+                    Margins work a lot like padding, except instead of increasing space between content and our
+                    invisible box (or visible if you have a border!) it increases space between the whole element and
+                    other elements around it.<br>
+                    Lets look at the css for this: <br><br>
+                    p{<br>
+                    margin: 5px;<br>
+                    }<br>
+                    p{<br>
+                    margin 5px 2px 5px 2px;<br>
+                    }<br>
+                    p{<br>
+                    margin-top:5px;<br>
+                    margin-right: 2px;<br>
+                    margin-bottom: 5px;<br>
+                    margin-left: 2px;<br>
+                    }<br>
+                    You can see its almost identical to the padding! The first example sets a 5px width
+                    for each side. - The second example sets each margin width following our clock
+                    top, right, bottom, left. The fourth and final example individually sets each margin.
+                    <br><br>
+                    So thats all there is to it! Borders, Padding, and Margins are essential for ensuring your
+                    website looks good and is layed out how you want. Play around, see what works, see what doesn't,
+                    and most importantly of all, have fun!
+
+                </p>
             </div>
 
         </div>
