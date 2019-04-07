@@ -62,32 +62,61 @@ main{
 }
 /* ************************************************** */
 /* **********************Blog************************ */
-#all-blog-posts{
+#blog-split{
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin-top: 5px;
+
+}
+#blog-split h1{
+    font-family: 'VT323', monospace;
+    border-bottom: solid #92B359 1px;
+    width:50%;
+    margin: 10px auto 10px auto;
+    text-align: center;
+}
+#blog-split a{
+    text-decoration: none;
+    color: #92B359;
+    
+}
+#c-blog{
+    width:50%;
+    border: solid #92B359 1px;
+    margin-right: 5px;
+}
+#t-blog{
+    width:50%;
+    border: solid #92B359 1px;
+    text-align: left;
+}
+#c-blog #t-blog{
     display: flex;
     flex-direction: column-reverse;
-    padding: 10px;
-}
-#blog-intro{
-    display: flex;
-    flex-direction: column;
-    padding: 10px;
-}
 
-.blog-post{
-    border: solid #92B359 2px;
-    margin-bottom: 5px;
-    padding: 10px;
 }
-.tech-blog-post{
-    display: flex;
-    flex-direction: column;
-    padding: 10px;
-    border: solid #92B359 2px;
-    margin-bottom: 5px;
-    padding: 10px;
-    flex-wrap: wrap;
+.tech-blog-post, .core-blog-post{
+    text-align: left;
+    padding: 0 10px;
+    font-family: monospace;
 }
-.tech-body{    
+.tech-body img{
+    float: left;
+    margin-right: 10px;
+}
+.post-end-line{
     display: flex;
-    flex-wrap: wrap; 
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 20px;
+    border-bottom: solid #92B359 1px;
+    font-size: .5em;
+}
+.post-end-line a{
+    color: #92B359;
+    text-decoration: none;
 }

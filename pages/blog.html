@@ -3,8 +3,8 @@
 
 <head>
     <title>Blog</title>
-    <link rel="stylesheet" href="../styles/main.css">
-    <!--<link rel="stylesheet" href="https://ben-sherwood.github.io/styles/main.css">-->
+    <!--<link rel="stylesheet" href="../styles/main.css">-->
+    <link rel="stylesheet" href="https://ben-sherwood.github.io/styles/main.css">
     <link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet">
 
 </head>
@@ -19,9 +19,190 @@
         <a href="projects.html">Projects</a>
         <a href="contact.html">Contact</a>
     </div>
-    <div id="blog-intro">
-        <h1>Welcome to my blog!</h1>
-        <p>Each post is a glimpse into my journey here at Inspiral Dev Academy.</p>
+    <div id="blog-split">
+        <div id="c-blog">
+            <h1>Core Blog</h1>
+            <div class="core-blog-post">
+                <h3>Learning Plan</h3>
+                <h4>My Strengths:</h4>
+                <p>
+                    Communication is something I would say I do very well. I have grown up in a very open and honest
+                    family which has helped me be forthcoming with my problems. In the last 4 years I have been
+                    medicated for MDD (Massive Depressive Disorder) and this has further helped my communication
+                    skills. I am willing to ask for help when needed and admit when I am struggling. Working for
+                    many years in hospitality has helped my communication by giving me experience working with
+                    complete strangers and colleagues alike – very different to family and friends and has
+                    encouraged my communication style to become adaptable.<br><br>
+
+                    Honesty is another trait that I think is vital to good communication as communication isn’t possible
+                    if you are not completely open with your peers. I do my best to present all information to help make
+                    calculated decisions with others.<br><br>
+
+                    Perfectionism could be both negative and positive, and I will come to the downsides in my
+                    weaknesses. I try hard to do everything at 100%. I put a lot of pressure on myself to produce the
+                    best results I can.
+                </p>
+                <h4>Weaknesses:</h4>
+                <p>Oh boy there are many. Like I said above, far easier to criticise oneself than complement.
+                    <br><br>
+                    I am a very emotional person. I often let my emotions rule my decision making rather than having a
+                    balance of emotion and rationality guide me. I call this balance of rationality and emotions wise
+                    mind, and I try and balance myself when I am stressed and tired to prevent myself being overwhelmed
+                    by emotions which can be debilitating. <br><br>
+
+                    Back to perfectionism. I often find that if I can’t do something exactly the way I want, I give up.
+                    I’d rather not do it than be disappointed with my result, and this has been a major player in the
+                    way I have lived my life. I am slowly getting better at dealing with this and hope it won’t be too
+                    much of a problem when it comes to this course.<br><br>
+
+                    I also often withdraw into myself when things get tough. This is something I have been better at
+                    recently, and rather than withdrawing I will communicate with people about why I feel like running
+                    away from what ever problem I have. Looking for support when I feel like this is essential to my
+                    sticking power.
+                </p>
+                <h4>How I will manage myself:</h4>
+                <p>
+                    With my main strengths and weaknesses outlined, lets have a look at how I can manage my time and
+                    energy while completing this course.<br><br>
+
+                    Firstly, while my communication is a strength, I often don’t really communicate with myself, and
+                    this often leads to a snowball effect where I then get frustrated and withdraw into myself.
+                    Something I have discovered even just since starting foundations is being organized cures this. When
+                    I say communicating with myself, I mean outlining and vocalising what it is I want, and how I want
+                    to achieve this. I started using sticky notes on windows to do this, by outlining weekly and daily
+                    things I want to achieve. I split larger tasks into smaller ones so I can continually feel a sense
+                    of accomplishment as I work. I think this has been incredibly helpful and I have since upgraded from
+                    sticky notes to an app called <a href="https://todoist.com/?lang=en">todoist</a>. This app allows me
+                    to have multiple projects each with
+                    multiple tasks. I can set dates and times for each and drag and drop between different projects and
+                    deadlines. This makes managing my workload simple and also gives me the satisfaction of marking
+                    things as complete. If I need to do something for someone, or get help from someone, I add these in
+                    as tasks. This again makes it easy for me to remain true to my commitments and keep up those
+                    channels of communication.<br><br>
+
+                    Seeking help isn’t something I should be afraid of, we learn by failing and reflecting, and often
+                    part of that reflection comes in the form of advice from others. My plan for seeking help is
+                    this:<br><br>
+
+                    Encounter problem – I look at the problem, try and break it down, and give myself a time limit to
+                    solve the problem on my own. If I still am struggling with a problem, I will seek help from my peers
+                    on slack. While waiting for a response I will keep on troubleshooting. Hopefully by this stage I
+                    will have solved the issue on my own, if not the advice from others should be another tool to solve
+                    the issue. If all else fails after these steps my final place to turn is my facilitators. This is a
+                    last resort as I feel the best way to learn is to teach yourself, and asking others and helping
+                    others is also a great way to help yourself, and them learn. I’m assuming my facilitators are gods,
+                    their time is better spent changing the world, not fixing my nav bar issues.<br><br>
+
+                    What I do want to see from my gods is support. Encouragement, communication, advice and respect.    
+                </p>
+                <div class="post-end-line">
+                    <p>Post By: <a href="contact.html">Ben</a></p>
+                    <p>Date: 07/04/2019</p>
+                </div>
+            </div>
+        </div>
+        <div id="t-blog">
+            <h1>Technical Blog</h1>
+            <div class="tech-blog-post">
+                <h3>A guide to Margins, Borders, and Padding</h3>
+                <div class="tech-body">
+                    <img src="../images/marginlesson.gif">
+                    <p>To understand Margins, borders, and padding, first we must understand how html
+                        elements are viewed by the browser. Pretty much every html element has an invisible
+                        box around the content. Circular Image? It will have a square box with the circles
+                        diameter as the width and height.<br><br></p>
+                </div>
+                <h4>Padding</h4>
+                <div class="tech-body">
+                    <p>Now, With the above in mind lets take a look at padding. Padding is the space between
+                        the content of the element, and the invisible box around the content.
+                    </p>
+                    <p>
+                        To set padding in CSS it is very simple. Select the element you want to change
+                        using css, and add a padding attribute like this:<br><br> p{<br>padding-top: 5px;<br>}<br><br>
+                        This will
+                        add
+                        a
+                        5px space between the content and the invisible box the content sits in. We can add more
+                        padding by using other variations of the attribute, like padding-right or padding-bottom,
+                        but there is an easier way!<br> Enter, padding. You can use just "padding" to choose all 4 sides
+                        at the same time like this:<br> p{<br>padding:5px 10px 5px 10px;<br>}.<br> This adds 5px padding
+                        around the content
+                        on all sides.<br> If you are using equal padding for each side, you can just use:<br> p{<br>
+                        padding: 5px;<br>}<br>
+                        This will automatically apply the 5px to each side. In terms of knowing which number will impact
+                        which side of padding, its simple: Think clockwise starting at 12. Top, right, bottom, left.<br>
+                        So, in our first example the top and bottom padding is 5px and the left and right padding is
+                        10px.<br>
+                        Looks like you are pros... lets now define that invisible box... Onwards to borders!
+                        <br>
+                    </p>
+                    <h4>Borders</h4>
+                    <p>Adding a border does just that. It adds a border to one or more sides of our
+                        "invisible" box. I often like to put a border around an element even if i don't
+                        plan on leaving it there when I am working out how I want to position the item,
+                        as it makes it easier to align elements.<br>
+                        Borders have many different combinations of attriubtes, I will show you the basic
+                        premise for creating a border, and you can see more <a
+                            href="https://www.w3schools.com/css/css_border.asp">advanced options at w3school.</a>
+                        <br><br>
+                        p{border: solid black 1px}<br><br>
+                        This is a very simple border. It is a solid line, the color is black and it is 1px wide.
+                        There are many styles of border like dotted, dashed, double, and more. The color attribute will
+                        take
+                        either a standard color, or a hexidecimal code, like #92B359 - the green color used on this post
+                        border.<br>
+                        The above style is actually condensing several different css commands:<br><br>
+                        p{<br>
+                        border-style: solid;<br>
+                        border-color: black;<br>
+                        border-width: 1px;<br>
+                        }<br><br>
+                        Just like padding we can apply different styles to different sides of our element:<br><br>
+                        border-width: 1px 5px 1px 5px;<br><br>
+                        This would give you a top and bottom border 1px wide, and left and right a width of 5px.
+                        The same thing can be done for color and style:<br><br>
+                        border-color: red black pink green;<br><br>
+                        border-style: dotted dashed solid double;<br><br>
+                        Crazy colors. Crazy styles.
+                    </p>
+                    <H4>Margins</H4>
+                    <p>Hey look! We are onto margins already and its only 3am!<br>
+                        Margins work a lot like padding, except instead of increasing space between content and our
+                        invisible box (or visible if you have a border!) it increases space between the whole element
+                        and
+                        other elements around it.<br>
+                        Lets look at the css for this: <br><br>
+                        p{<br>
+                        margin: 5px;<br>
+                        }<br>
+                        p{<br>
+                        margin 5px 2px 5px 2px;<br>
+                        }<br>
+                        p{<br>
+                        margin-top:5px;<br>
+                        margin-right: 2px;<br>
+                        margin-bottom: 5px;<br>
+                        margin-left: 2px;<br>
+                        }<br>
+                        You can see its almost identical to the padding! The first example sets a 5px width
+                        for each side. - The second example sets each margin width following our clock
+                        top, right, bottom, left. The fourth and final example individually sets each margin.
+                        <br><br>
+                        So thats all there is to it! Borders, Padding, and Margins are essential for ensuring your
+                        website looks good and is layed out how you want. Play around, see what works, see what doesn't,
+                        and most importantly of all, have fun!
+
+                    </p>
+                    <div class="post-end-line">
+                        <p>Post By: <a href="contact.html">Ben</a></p>
+                        <p>Date: 07/04/2019</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!--
     </div>
     <div id="all-blog-posts">
         <!--<div class="blog-post">
@@ -215,7 +396,7 @@
                 maybe isnt fully correct but seemed ok... perhaps this is just outlining that I have NO clue what im
                 talking about! xD</p>
         </div>
-        -->
+        
         <div class="blog-post">
             <h3 class="blog-heading">A Story about HTML and CSS</h3>
             <p class="date">03/04/2019</p>
@@ -246,100 +427,10 @@
             </p>
             <p id="bold">The End</p>
         </div>
-        <div class="tech-blog-post">
-            <h3>A guide to Margins, Borders, and Padding</h3>
-            <p class="date">03/04/2019</p>
-            <div class="tech-body">
-                <p>To understand Margins, borders, and padding, first we must understand how html
-                    elements are viewed by the browser. Pretty much every html element has an invisible
-                    box around the content. Circular Image? It will have a square box with the circles
-                    diameter as the width and height.<br><br></p>
-            </div>
-            <h4>Padding</h4>
-            <div class="tech-body">
-                <div id="img-p-wrap">
-                    <p>Now, With the above in mind lets take a look at padding. Padding is the space between
-                        the content of the element, and the invisible box around the content.
-                    </p>
-                    <img src="../images/marginlesson.gif">
-                </div>
-                <p>
-                    To set padding in CSS it is very simple. Select the element you want to change
-                    using css, and add a padding attribute like this:<br> p{<br>padding-top: 5px;<br>}<br> This will add a
-                    5px space between the content and the invisible box the content sits in. We can add more
-                    padding by using other variations of the attribute, like padding-right or padding-bottom,
-                    but there is an easier way!<br> Enter, padding. You can use just "padding" to choose all 4 sides
-                    at the same time like this:<br> p{<br>padding:5px 10px 5px 10px;<br>}.<br> This adds 5px padding around the content
-                    on all sides.<br> If you are using equal padding for each side, you can just use:<br> p{<br>
-                        padding: 5px;<br>}<br>
-                    This will automatically apply the 5px to each side. In terms of knowing which number will impact
-                    which side of padding, its simple: Think clockwise starting at 12. Top, right, bottom, left.<br>
-                    So, in our first example the top and bottom padding is 5px and the left and right padding is
-                    10px.<br>
-                    Looks like you are pros... lets now define that invisible box... Onwards to borders!
-                    <br>
-                </p>
-                <h4>Borders</h4>
-                <p>Adding a border does just that. It adds a border to one or more sides of our
-                    "invisible" box. I often like to put a border around an element even if i don't
-                    plan on leaving it there when I am working out how I want to position the item,
-                    as it makes it easier to align elements.<br>
-                    Borders have many different combinations of attriubtes, I will show you the basic
-                    premise for creating a border, and you can see more <a
-                        href="https://www.w3schools.com/css/css_border.asp">advanced options at w3school.</a> <br><br>
-                    p{border: solid black 1px}<br><br>
-                    This is a very simple border. It is a solid line, the color is black and it is 1px wide.
-                    There are many styles of border like dotted, dashed, double, and more. The color attribute will take
-                    either a standard color, or a hexidecimal code, like #92B359 - the green color used on this post
-                    border.<br>
-                    The above style is actually condensing several different css commands:<br><br>
-                    p{<br>
-                    border-style: solid;<br>
-                    border-color: black;<br>
-                    border-width: 1px;<br>
-                    }<br><br>
-                    Just like padding we can apply different styles to different sides of our element:<br><br>
-                    border-width: 1px 5px 1px 5px;<br><br>
-                    This would give you a top and bottom border 1px wide, and left and right a width of 5px.
-                    The same thing can be done for color and style:<br><br>
-                    border-color: red black pink green;<br><br>
-                    border-style: dotted dashed solid double;<br><br>
-                    Crazy colors. Crazy styles.
-                </p>
-                <H4>Margins</H4>
-                <p>Hey look! We are onto margins already and its only 3am!<br>
-                    Margins work a lot like padding, except instead of increasing space between content and our
-                    invisible box (or visible if you have a border!) it increases space between the whole element and
-                    other elements around it.<br>
-                    Lets look at the css for this: <br><br>
-                    p{<br>
-                    margin: 5px;<br>
-                    }<br>
-                    p{<br>
-                    margin 5px 2px 5px 2px;<br>
-                    }<br>
-                    p{<br>
-                    margin-top:5px;<br>
-                    margin-right: 2px;<br>
-                    margin-bottom: 5px;<br>
-                    margin-left: 2px;<br>
-                    }<br>
-                    You can see its almost identical to the padding! The first example sets a 5px width
-                    for each side. - The second example sets each margin width following our clock
-                    top, right, bottom, left. The fourth and final example individually sets each margin.
-                    <br><br>
-                    So thats all there is to it! Borders, Padding, and Margins are essential for ensuring your
-                    website looks good and is layed out how you want. Play around, see what works, see what doesn't,
-                    and most importantly of all, have fun!
-
-                </p>
-            </div>
-
-        </div>
-        </p>
     </div>
-    </div>
-    <!-- 
+    </div>-->
+
+        <!-- 
         <div class="blog-post">
             <h3 class="blog-heading"></h3>
             <p class="date"></p>
