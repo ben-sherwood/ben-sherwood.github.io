@@ -98,6 +98,11 @@ main{
     border: solid #92B359 1px;
     text-align: left;
 }
+.tech-blog-post .quote{
+    margin: auto;
+    font-style: italic;
+    width: 80%;
+}
 #c-blog #t-blog{
     display: flex;
     flex-direction: column-reverse;
