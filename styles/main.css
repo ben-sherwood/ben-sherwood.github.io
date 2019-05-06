@@ -68,12 +68,13 @@ main{
     flex-direction: row;
     text-align: center;
     margin-top: 5px;
+    font-size: 1.5vw;
 
 }
 #blog-split h1{
     font-family: 'VT323', monospace;
     border-bottom: solid #92B359 1px;
-    width:50%;
+    width:100%;
     margin: 10px auto 10px auto;
     text-align: center;
 }
@@ -83,7 +84,7 @@ main{
     
 }
 #c-blog{
-    width:50%;
+    width:auto;
     border: solid #92B359 1px;
     margin-right: 5px;
 }
@@ -94,7 +95,7 @@ main{
     flex-direction: row;
 }
 #t-blog{
-    width:50%;
+    width:auto;
     border: solid #92B359 1px;
     text-align: left;
 }
