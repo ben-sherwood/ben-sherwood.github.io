@@ -2,224 +2,378 @@
 <html lang="en">
 
 <head>
-    <title>Blog</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <!-- <link rel="stylesheet" href="../styles/main.css"> -->
-    <link rel="stylesheet" href="https://ben-sherwood.github.io/styles/main.css">
-    <link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet">
+  <title>Blog</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- <link rel="stylesheet" href="../styles/main.css"> -->
+  <link rel="stylesheet" href="https://ben-sherwood.github.io/styles/main.css">
+  <link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet">
 
 </head>
 <main>
 
-    <body>
-        <div id="heading">
-            <h1> + - + Ben's Blog + - +</h1>
+  <body>
+    <div id="heading">
+      <h1> + - + Ben's Blog + - +</h1>
+    </div>
+
+    <div id="navbar">
+      <a href="../index.html">About Me</a>
+      <a href="cblog.html">Cultural Blog</a>
+      <a href="tblog.html">Tech Blog</a>
+      <a href="projects.html">Projects</a>
+      <a href="contact.html">Contact</a>
+    </div>
+    <div id="blog-split">
+      <div id="t-blog">
+        <h1>Technical Blog</h1>
+        <div class="tech-blog-post">
+          <h3>Problem Solving - A Saga</h3>
+          <div class="tech-body">
+            <p>
+              Running into problems while coding is inevitable. Learning how to deal with those problems is what can
+              set
+              apart a good developer and a great one. There have been several times recently I have faced challenges,
+              some of which I handled well, others not so much.
+            </p>
+            <p>
+              A recent example was when I was first trying to lay out my navigation bar for my blog. I have a bit of
+              experience in HTML and CSS so I jumped right into coding my vision for a very very basic blog – the one
+              you see here. Having not done any coding in several years jumping in with no plan wasn’t the best idea,
+              but to hell with good ideas, I did it anyway. I quickly ran into problems. Scaling. Oh boy I remember
+              struggling with this previously but my ego got the best of me and I refused to believe I didn’t know how
+              to fix my navigation bar. The links were jumping around when the screen was resized, and it didn’t even
+              fit the screen right in optimal conditions. I handled this issue terribly. I got frustrated and stopped
+              coding for a few days because I thought coming back afresh might be all it took.
+              Unfortunately sitting around doing nothing does not help improve problem solving. Having spent a few
+              days
+              doing nothing, I still couldn’t fix the navigation bar. I knew I was going to be able to fix the issue
+              but
+              not without some problem solving.
+            </p>
+            <p>
+              I started by making a clear plan of what I wanted. I made a wire frame (sketch on paper) of the header
+              and
+              navigation bar and how I wanted it to look. I then finally admitted I needed some more knowledge and did
+              some googling on very basic website scaling techniques. Within about 10 minutes I had discovered that
+              there were some new features in HTML5 that make scaling much easier. I went back to my code and started
+              using this new way of organising the content on my page. Instant results. Suddenly things were behaving
+              how I wanted, and the page was starting to resemble what I envisioned initially.
+              This process was not an easy one. I spent a few days frustrated and many hours mashing buttons hoping
+              for
+              a solution to come forward. I think the biggest take away from this is that a problem is simply a gap in
+              understanding or knowledge, or a mistake you are unaware of. If you want to play golf, and you realise
+              you
+              haven’t got a ball, you don’t just sit down and wait for one to appear, nor do you keep searching the
+              glovebox in your car that you’ve already looked through 3 times.
+              Problem solving is recognising what the gap in understanding or knowledge is, and then using different
+              methods to close that gap in understanding.
+            </p>
+            <p>
+              Another example of a conundrum I encountered recently was while coding some solutions to some javascript
+              challenges. The challenges were set up as a series of tests that you must write code that passes those
+              tests.
+            </p>
+            <p>
+              I wrote what I thought was a function that would satisfy the test but unfortunately it failed. Firstly,
+              the only information I had was that the test failed. I wasn’t sure why, and I wasn’t sure what my code
+              was
+              really doing. So, my first step was to find out what was going on, and to do this I ran the code in the
+              console window, which completely ignores the test and allowed me to see what my code was doing. I was
+              surprised to see that it was functioning as I expected.
+            </p>
+            <p>
+              So, where to now? From here, I decided to look at the sample solution. The sample was different of
+              course,
+              and I started to have a closer look at how this solution worked. After looking carefully at my solution
+              and the sample I ran them both in the console window to see if the results were different. The output
+              was
+              identical. From here I thought that maybe it was somehow something that the test was doing that I
+              couldn’t
+              see, but I don’t think this was the issue. I decided to rewrite my answer now that I had a better
+              understanding of the sample solution and I came up with a version of my answer that worked. I was still
+              a
+              bit annoyed though as I felt like my initial answer should have worked, so in the interest of learning I
+              went back and rewrote my initial answer the way I had it. It worked. I think the take away here is I
+              should have been more confident in my initial solution, its more likely that I had some small syntax
+              error
+              that was causing the issue in the tests, which I inadvertently corrected when typing the code into
+              console. The benefit of this though was it forced me to think of a new solution, and improve or
+              “refactor”
+              my code.
+            </p>
+            <h3>Problem Solving Techniques</h3>
+            <h4>Do Something!</h4>
+            <p>
+              Now this one is pretty self explanitory. You have an issue? Start by making a start. Even if that is just
+              saying to yourself "This is what
+              I am trying to do, this is the problem I am having". You can't solve a problem without engaging with the
+              problem. <br><br>
+              This is something that I actually struggle with sometimes. I often come across a problem and lose
+              motivation rapidly. I am working through
+              by trying to make some of the problem solving techniques become more habitual when I am faced with issues.
+            </p>
+            <h4>Pseudocode</h4>
+            <p>
+              <a href="https://economictimes.indiatimes.com/definition/pseudocode">The Economic Times</a> describes
+              pseudocode as:
+            </p>
+            <p class="quote">
+              "...an informal way of programming description that does not require any strict programming
+              language syntax or underlying technology considerations."
+            </p>
+            <p>
+              Put more plainly, pseudocode uses simple language to describe what you want a program do to. Pretty much
+              anything can be described
+              using this method. For example, lets say you want to write a function that checks a students test result,
+              then lets you know if
+              they have passed the test. The pseudocode might look like this:<br><br>
+              If student grade is greater than 50%<br>
+              &nbsp;&nbsp;&nbsp;print "pass"<br>
+              otherwise<br>
+              &nbsp;&nbsp;&nbsp;print "fail" <br><br>
+              This isn't code, and it wont do anything if we leave it like that, however it gives us a really good idea
+              of what we want our code
+              to do. It also makes it easy to understand for people who are not familiar with the language you will end
+              up writing the code in. <br>
+              Pseudocode isn't something I have used a whole lot, and it will certainly take some time before I am good
+              at writing good pseudocode,
+              but with its advantages I am looking forward to implementing it more frequently.
+            </p>
+            <h4>Rubber Ducky Method</h4>
+            <p>
+              Ahh one of my personal favourites. One of the challenging things about.... challenges is sometimes it is
+              hard to see what the issue is.
+              You know its not working, you know it needs to be fixed, but what exactly is it that needs fixing?
+              Sometimes it can be helpful to
+              vocalise the issue, speak out loud to someone, or something (hence rubber ducky - I use a lego Llama) to
+              help you articulate what it
+              is you are having problems with. Spoken language uses different areas of the brain, and exercising those
+              parts of your brain and attempting
+              to describe the issue to a person or object can make what seems like a complicated problem much more
+              simple. Often even before I have
+              finished explaining what my issue is to said Llama, I know what it is I need to do to solve the problem.
+            </p>
+            <h4>Error Messages</h4>
+            <p>
+              If you make an error in your code, you should get some kind of error message displayed in the console.
+              These error messages contain a lot
+              of helpful information that can point you to where the issue is and how to fix it. For example, a very
+              common error when learning to code
+              (I do this all the time) is to forget to put an all important bracket or some other indicator that the
+              browser or program running
+              code relies on to function. If this happens you will likely get a syntax error. The computer knows you
+              have missed something important
+              and will even direct you to the line of code it thinks is the issue. Reading these error messages is an
+              easy way to see if you have tried
+              to ask for something that is impossible. Another example of this would be if you tried to call a function
+              or variable you haven't
+              decleared. In this instance you would receive a "reference error" letting you know that the thing you are referring to
+              doesn't exist.<br><br>
+              There are many error messages I have yet to encounter, but often googling the error will quickly let you know 
+              what you have done wrong and how to fix it. I am looking forward to learning how to handle different errors using
+              error messages.
+            </p>
+            <div class="post-end-line">
+                <p>Post By: <a href="contact.html">Ben</a></p>
+                <p>Date: 06/05/2019</p>
+              </div>
+          </div>
+          </h3>
         </div>
-
-        <div id="navbar">
-            <a href="../index.html">About Me</a>
-            <a href="cblog.html">Cultural Blog</a>
-            <a href="tblog.html">Tech Blog</a>
-            <a href="projects.html">Projects</a>
-            <a href="contact.html">Contact</a>
-        </div>
-        <div id="blog-split">
-            <div id="t-blog">
-                <h1>Technical Blog</h1>
-                <div class="tech-blog-post">
-                    <h3>The DOM, Javascript, and HTML/CSS</h3>
-                    <div class="tech-body">
-                        <p>Alrighty folks lets do a quick simplified analogy for HTML, CSS, and Javascript
-                            and how they interact.<br><br>
-                        </p>
-                        <p class="quote">"HTML is the materials required to build a home. Css is the
-                            arrangement, the style, and colors. Javascript is the wiring and the plumming". <br>
-                            - Ben Sherwood 1856.
-                        </p>
-                        <p>We all love analogies so lets crack into another one. This time its on Control Flow and
-                            loops!<br>
-                            Control flow is essentially the order in which code is executed. Like reading english, the
-                            code will execute from top to bottom, left to right. There are things that can change this,
-                            for instance a loop. A loop is a block of code that will be repeated until a certain
-                            condition
-                            is met. I know, I know, I promised a wonderful analogy and here it is: <br><br>
-                        </p>
-                        <p>Control flow is like following a recipe for chocolate brownies.
-                            You do each step as it comes. When it comes to cooking, you may need to take
-                            the brownie out and stick a skewer in the center to check its cooked. If the
-                            skewer comes out with mix stuck to it, you'll need to put it back in the oven
-                            for a few minutes longer and check again until the brownie is cooked. This step
-                            of checking if the brownie is cooked is the loop, and it alters the control flow
-                            because it keeps going back to the step of putting the brownie in the oven until its
-                            cooked and the statement "isCooked == true".
-                        </p>
-                        <h4>THE IMPENDING DOM</h4>
-                        <p>Wikipedia describes the DOM as:<br></p>
-                        <p class="quote">.. a cross-platform and language-independent
-                            application programming interface that treats an HTML, XHTML, or XML document as a tree
-                            structure wherein each node is an object representing a part of the document.</p>
-                        <p>Essentially the DOM is a way of oragnising a document into a tree structure with each element
-                            a node on the tree. This allows each node to be accessed independently by javascript
-                            functions.
-                        </p>
-                        <p>To access the DOM, we can use the console in developer tools on a web browser, but the
-                            standard
-                            way
-                            is to have javascript files linked to the HTML. The code below changes the background color
-                            by
-                            accessing the DOM:<br>
-                            document.body.style.backgroundColor = 'fuchsia'; </p>
-                        <h4> Accessing data from objects and arrays</h4>
-                        <p>Firstly, what is a javascript array?<br>
-                            an array can hold many values under a single name. These values can be accessed
-                            by referring to an index number.
-                            Consider the array:<br><br> var cars = ["Subaru", "Honda", "Toyota"]<br><br>
-                            cars is a variable that points to an array of strings. Each value in the array has an index,
-                            starting at 0. These values can be accessed as follows: <br><br>
-                            cars[0] will return "Subaru" cars[1] will return "Honda" and so on.<br><br>
-                            Pretty much everything in javascript is an object. A good way to thinka= about a javascript
-                            object
-                            is that it is a collection of named values. Have a look below at the object example:<br><br>
-                            var person = {firstName:"John", lastName:"Doe", age:50, eyeColor:"blue"};<br><br>
-                            the variable "person" points to an object that has a collection of different named values.
-                            These names are referred to as the object properties, and information after the colon is
-                            simply the value.<br><br>
-                            There are two ways to access the property values. Dot notation and bracket notation.
-                            <br><br>
-                            person.firstName would give the value for the property firstName. person["firstName"] will
-                            do
-                            the same.
-                        </p>
-                        <h4>Functions and why they are useful</h4>
-                        <p>One way to think of a javascript program is as a collection of subprograms called functions.
-                            Functions perform a specific task and are only executed when they are called. Fuctions can
-                            take values as arguments which can be used within the functon. The reason functions are
-                            useful
-                            is it allows for certain code to be ignored until called by the script. This code can be
-                            reused
-                            with new arguments passed any number of times.
-                        </p>
-                        <div class="post-end-line">
-                            <p>Post By: <a href="contact.html">Ben</a></p>
-                            <p>Date: 07/04/2019</p>
-                        </div>
-
-
-                    </div>
-                </div>
-
-                <div class="tech-blog-post">
-                    <h3>A guide to Margins, Borders, and Padding</h3>
-                    <div class="tech-body">
-                        <img src="../images/marginlesson.gif">
-                        <p>To understand Margins, borders, and padding, first we must understand how html
-                            elements are viewed by the browser. Pretty much every html element has an invisible
-                            box around the content. Circular Image? It will have a square box with the circles
-                            diameter as the width and height.<br><br></p>
-                    </div>
-                    <h4>Padding</h4>
-                    <div class="tech-body">
-                        <p>Now, With the above in mind lets take a look at padding. Padding is the space between
-                            the content of the element, and the invisible box around the content.
-                        </p>
-                        <p>
-                            To set padding in CSS it is very simple. Select the element you want to change
-                            using css, and add a padding attribute like this:<br><br> p{<br>padding-top:
-                            5px;<br>}<br><br>
-                            This will
-                            add
-                            a
-                            5px space between the content and the invisible box the content sits in. We can add more
-                            padding by using other variations of the attribute, like padding-right or padding-bottom,
-                            but there is an easier way!<br> Enter, padding. You can use just "padding" to choose all 4
-                            sides
-                            at the same time like this:<br> p{<br>padding:5px 10px 5px 10px;<br>}.<br> This adds 5px
-                            padding
-                            around the content
-                            on all sides.<br> If you are using equal padding for each side, you can just use:<br> p{<br>
-                            padding: 5px;<br>}<br>
-                            This will automatically apply the 5px to each side. In terms of knowing which number will
-                            impact
-                            which side of padding, its simple: Think clockwise starting at 12. Top, right, bottom,
-                            left.<br>
-                            So, in our first example the top and bottom padding is 5px and the left and right padding is
-                            10px.<br>
-                            Looks like you are pros... lets now define that invisible box... Onwards to borders!
-                            <br>
-                        </p>
-                        <h4>Borders</h4>
-                        <p>Adding a border does just that. It adds a border to one or more sides of our
-                            "invisible" box. I often like to put a border around an element even if i don't
-                            plan on leaving it there when I am working out how I want to position the item,
-                            as it makes it easier to align elements.<br>
-                            Borders have many different combinations of attriubtes, I will show you the basic
-                            premise for creating a border, and you can see more <a
-                                href="https://www.w3schools.com/css/css_border.asp">advanced options at w3school.</a>
-                            <br><br>
-                            p{border: solid black 1px}<br><br>
-                            This is a very simple border. It is a solid line, the color is black and it is 1px wide.
-                            There are many styles of border like dotted, dashed, double, and more. The color attribute
-                            will
-                            take
-                            either a standard color, or a hexidecimal code, like #92B359 - the green color used on this
-                            post
-                            border.<br>
-                            The above style is actually condensing several different css commands:<br><br>
-                            p{<br>
-                            border-style: solid;<br>
-                            border-color: black;<br>
-                            border-width: 1px;<br>
-                            }<br><br>
-                            Just like padding we can apply different styles to different sides of our element:<br><br>
-                            border-width: 1px 5px 1px 5px;<br><br>
-                            This would give you a top and bottom border 1px wide, and left and right a width of 5px.
-                            The same thing can be done for color and style:<br><br>
-                            border-color: red black pink green;<br><br>
-                            border-style: dotted dashed solid double;<br><br>
-                            Crazy colors. Crazy styles.
-                        </p>
-                        <H4>Margins</H4>
-                        <p>Hey look! We are onto margins already and its only 3am!<br>
-                            Margins work a lot like padding, except instead of increasing space between content and our
-                            invisible box (or visible if you have a border!) it increases space between the whole
-                            element
-                            and
-                            other elements around it.<br>
-                            Lets look at the css for this: <br><br>
-                            p{<br>
-                            margin: 5px;<br>
-                            }<br>
-                            p{<br>
-                            margin 5px 2px 5px 2px;<br>
-                            }<br>
-                            p{<br>
-                            margin-top:5px;<br>
-                            margin-right: 2px;<br>
-                            margin-bottom: 5px;<br>
-                            margin-left: 2px;<br>
-                            }<br>
-                            You can see its almost identical to the padding! The first example sets a 5px width
-                            for each side. - The second example sets each margin width following our clock
-                            top, right, bottom, left. The fourth and final example individually sets each margin.
-                            <br><br>
-                            So thats all there is to it! Borders, Padding, and Margins are essential for ensuring your
-                            website looks good and is layed out how you want. Play around, see what works, see what
-                            doesn't,
-                            and most importantly of all, have fun!
-
-                        </p>
-                        <div class="post-end-line">
-                            <p>Post By: <a href="contact.html">Ben</a></p>
-                            <p>Date: 07/04/2019</p>
-                        </div>
-                    </div>
-
-                </div>
+        <div class="tech-blog-post">
+          <h3>The DOM, Javascript, and HTML/CSS</h3>
+          <div class="tech-body">
+            <p>Alrighty folks lets do a quick simplified analogy for HTML, CSS, and Javascript
+              and how they interact.<br><br>
+            </p>
+            <p class="quote">"HTML is the materials required to build a home. Css is the
+              arrangement, the style, and colors. Javascript is the wiring and the plumming". <br>
+              - Ben Sherwood 1856.
+            </p>
+            <p>We all love analogies so lets crack into another one. This time its on Control Flow and
+              loops!<br>
+              Control flow is essentially the order in which code is executed. Like reading english, the
+              code will execute from top to bottom, left to right. There are things that can change this,
+              for instance a loop. A loop is a block of code that will be repeated until a certain
+              condition
+              is met. I know, I know, I promised a wonderful analogy and here it is: <br><br>
+            </p>
+            <p>Control flow is like following a recipe for chocolate brownies.
+              You do each step as it comes. When it comes to cooking, you may need to take
+              the brownie out and stick a skewer in the center to check its cooked. If the
+              skewer comes out with mix stuck to it, you'll need to put it back in the oven
+              for a few minutes longer and check again until the brownie is cooked. This step
+              of checking if the brownie is cooked is the loop, and it alters the control flow
+              because it keeps going back to the step of putting the brownie in the oven until its
+              cooked and the statement "isCooked == true".
+            </p>
+            <h4>THE IMPENDING DOM</h4>
+            <p>Wikipedia describes the DOM as:<br></p>
+            <p class="quote">.. a cross-platform and language-independent
+              application programming interface that treats an HTML, XHTML, or XML document as a tree
+              structure wherein each node is an object representing a part of the document.</p>
+            <p>Essentially the DOM is a way of oragnising a document into a tree structure with each element
+              a node on the tree. This allows each node to be accessed independently by javascript
+              functions.
+            </p>
+            <p>To access the DOM, we can use the console in developer tools on a web browser, but the
+              standard
+              way
+              is to have javascript files linked to the HTML. The code below changes the background color
+              by
+              accessing the DOM:<br>
+              document.body.style.backgroundColor = 'fuchsia'; </p>
+            <h4> Accessing data from objects and arrays</h4>
+            <p>Firstly, what is a javascript array?<br>
+              an array can hold many values under a single name. These values can be accessed
+              by referring to an index number.
+              Consider the array:<br><br> var cars = ["Subaru", "Honda", "Toyota"]<br><br>
+              cars is a variable that points to an array of strings. Each value in the array has an index,
+              starting at 0. These values can be accessed as follows: <br><br>
+              cars[0] will return "Subaru" cars[1] will return "Honda" and so on.<br><br>
+              Pretty much everything in javascript is an object. A good way to thinka= about a javascript
+              object
+              is that it is a collection of named values. Have a look below at the object example:<br><br>
+              var person = {firstName:"John", lastName:"Doe", age:50, eyeColor:"blue"};<br><br>
+              the variable "person" points to an object that has a collection of different named values.
+              These names are referred to as the object properties, and information after the colon is
+              simply the value.<br><br>
+              There are two ways to access the property values. Dot notation and bracket notation.
+              <br><br>
+              person.firstName would give the value for the property firstName. person["firstName"] will
+              do
+              the same.
+            </p>
+            <h4>Functions and why they are useful</h4>
+            <p>One way to think of a javascript program is as a collection of subprograms called functions.
+              Functions perform a specific task and are only executed when they are called. Fuctions can
+              take values as arguments which can be used within the functon. The reason functions are
+              useful
+              is it allows for certain code to be ignored until called by the script. This code can be
+              reused
+              with new arguments passed any number of times.
+            </p>
+            <div class="post-end-line">
+              <p>Post By: <a href="contact.html">Ben</a></p>
+              <p>Date: 07/04/2019</p>
             </div>
+
+
+          </div>
         </div>
-    </body>
+
+        <div class="tech-blog-post">
+          <h3>A guide to Margins, Borders, and Padding</h3>
+          <div class="tech-body">
+            <img src="../images/marginlesson.gif">
+            <p>To understand Margins, borders, and padding, first we must understand how html
+              elements are viewed by the browser. Pretty much every html element has an invisible
+              box around the content. Circular Image? It will have a square box with the circles
+              diameter as the width and height.<br><br></p>
+          </div>
+          <h4>Padding</h4>
+          <div class="tech-body">
+            <p>Now, With the above in mind lets take a look at padding. Padding is the space between
+              the content of the element, and the invisible box around the content.
+            </p>
+            <p>
+              To set padding in CSS it is very simple. Select the element you want to change
+              using css, and add a padding attribute like this:<br><br> p{<br>padding-top:
+              5px;<br>}<br><br>
+              This will
+              add
+              a
+              5px space between the content and the invisible box the content sits in. We can add more
+              padding by using other variations of the attribute, like padding-right or padding-bottom,
+              but there is an easier way!<br> Enter, padding. You can use just "padding" to choose all 4
+              sides
+              at the same time like this:<br> p{<br>padding:5px 10px 5px 10px;<br>}.<br> This adds 5px
+              padding
+              around the content
+              on all sides.<br> If you are using equal padding for each side, you can just use:<br> p{<br>
+              padding: 5px;<br>}<br>
+              This will automatically apply the 5px to each side. In terms of knowing which number will
+              impact
+              which side of padding, its simple: Think clockwise starting at 12. Top, right, bottom,
+              left.<br>
+              So, in our first example the top and bottom padding is 5px and the left and right padding is
+              10px.<br>
+              Looks like you are pros... lets now define that invisible box... Onwards to borders!
+              <br>
+            </p>
+            <h4>Borders</h4>
+            <p>Adding a border does just that. It adds a border to one or more sides of our
+              "invisible" box. I often like to put a border around an element even if i don't
+              plan on leaving it there when I am working out how I want to position the item,
+              as it makes it easier to align elements.<br>
+              Borders have many different combinations of attriubtes, I will show you the basic
+              premise for creating a border, and you can see more <a
+                href="https://www.w3schools.com/css/css_border.asp">advanced options at w3school.</a>
+              <br><br>
+              p{border: solid black 1px}<br><br>
+              This is a very simple border. It is a solid line, the color is black and it is 1px wide.
+              There are many styles of border like dotted, dashed, double, and more. The color attribute
+              will
+              take
+              either a standard color, or a hexidecimal code, like #92B359 - the green color used on this
+              post
+              border.<br>
+              The above style is actually condensing several different css commands:<br><br>
+              p{<br>
+              border-style: solid;<br>
+              border-color: black;<br>
+              border-width: 1px;<br>
+              }<br><br>
+              Just like padding we can apply different styles to different sides of our element:<br><br>
+              border-width: 1px 5px 1px 5px;<br><br>
+              This would give you a top and bottom border 1px wide, and left and right a width of 5px.
+              The same thing can be done for color and style:<br><br>
+              border-color: red black pink green;<br><br>
+              border-style: dotted dashed solid double;<br><br>
+              Crazy colors. Crazy styles.
+            </p>
+            <H4>Margins</H4>
+            <p>Hey look! We are onto margins already and its only 3am!<br>
+              Margins work a lot like padding, except instead of increasing space between content and our
+              invisible box (or visible if you have a border!) it increases space between the whole
+              element
+              and
+              other elements around it.<br>
+              Lets look at the css for this: <br><br>
+              p{<br>
+              margin: 5px;<br>
+              }<br>
+              p{<br>
+              margin 5px 2px 5px 2px;<br>
+              }<br>
+              p{<br>
+              margin-top:5px;<br>
+              margin-right: 2px;<br>
+              margin-bottom: 5px;<br>
+              margin-left: 2px;<br>
+              }<br>
+              You can see its almost identical to the padding! The first example sets a 5px width
+              for each side. - The second example sets each margin width following our clock
+              top, right, bottom, left. The fourth and final example individually sets each margin.
+              <br><br>
+              So thats all there is to it! Borders, Padding, and Margins are essential for ensuring your
+              website looks good and is layed out how you want. Play around, see what works, see what
+              doesn't,
+              and most importantly of all, have fun!
+
+            </p>
+            <div class="post-end-line">
+              <p>Post By: <a href="contact.html">Ben</a></p>
+              <p>Date: 07/04/2019</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </body>
 
 </main>
 

@@ -84,9 +84,10 @@ main{
     
 }
 #c-blog{
-    width:auto;
+    width:60%;
     border: solid #92B359 1px;
-    margin-right: 5px;
+    text-align: left;
+    margin: auto;
 }
 .blog-links a,.blog-links li{
     text-decoration: none;
@@ -95,9 +96,10 @@ main{
     flex-direction: row;
 }
 #t-blog{
-    width:auto;
+    width:60%;
     border: solid #92B359 1px;
     text-align: left;
+    margin: auto;
 }
 .tech-blog-post .quote{
     margin: auto;
